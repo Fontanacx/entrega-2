@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar Evento</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+    <body class="3">
+        <header>
+
+                <img class="logo2" src="/media/img/logo.png" alt="Logo">
+                    <h2 class="Titulo">PartyPass</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="/index.html">Inicio</a></li>
+                            <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                            <li><a href="/pages/login.html">Ingresar</a></li>
+                            <li><a href="/pages/register.html">Registro</a></li>
+                            <li><a href="./publicar-eventos.html">Publicar Eventos</a></li>
+                        </ul>
+                    </nav> 
+        </header>
+        <div class="container2">
+            <h2 class="titulo2">Publicar Evento de Fiesta</h2>
+            <form class="form2" action="#" method="POST">
+                <label class="label2" for="nombre">Nombre del Evento:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+    
+                <label for="lugar">Lugar:</label>
+                <input type="text" id="lugar" name="lugar" required>
+    
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+    
+                <button class="click" type="submit">Publicar Evento</button>
+            </form>
+        </div>
+    </body>
+    </html>
+    

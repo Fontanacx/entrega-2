@@ -1,0 +1,4 @@
+Por si la dudas nota desacomodado el register que no esta igual que login es porque al principio tenia el login y el register en otro css aparte al style y cuando junte todo se rompio el codigo tambien intente ponerle clase a todo pero ni aun asi lo solucione, solo pude arreglar el login la unica forma que quede bien y acomodado el register es vinculado a otro css porque si no el codigo se me rompe pero no lo hice ya que ustedes pidieron un solo css.
+
+
+El Index HTML y el NOSOTROS.html SON FULL RESPONSIVE

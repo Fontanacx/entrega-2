@@ -38,7 +38,9 @@ nav a:hover{
 p{
     text-align: center;
     margin: 0;
-    background-color: #5eff00;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
     display: center;
     height: 100px;
     font-family: sans-serif;
@@ -46,14 +48,410 @@ p{
     padding: 40px;
 }
 
-.yatu{
+p .yatu{
 
     color: #000000;
     background-color: aliceblue;
 
 }
 
+
+
+
+main{
+
+    background-image: url(../media/img/fiesta.jpg);
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 button{
+
     align-items: center;
     display: center;
+    margin: 2.5px;
+    height: 25px;
+background: none;
+background-size: auto;
+
 }
+footer {
+    
+        background-image: url(../media/img/fiesta2.png);
+        background-repeat: no-repeat;
+        background-color: purple;
+        background-position: center; 
+        background-size: cover; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        height: 100vh;
+        margin: 0; 
+        padding: 0; 
+    }
+    
+
+
+h4 {
+    color: #FBB50A;
+    font-size: 24px;
+}
+
+.text2 {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+h5 {
+    color: white;
+    font-size: 36px; 
+    margin: 0; 
+}
+
+.p1{
+    color: white;
+}
+.p2{
+    color: #FBB50A;
+}
+.p3{
+    color: white;
+    margin-bottom: 0;
+}
+
+.nosotros-main{
+
+    background-image: none;
+    font-size: 50px;
+    margin: 30px;
+    padding: 10;
+    background-color: coral;
+    flex: center;
+    text-align: center;
+}
+
+.p8{
+    font-size: 11px;
+    text-align: none;
+    margin: 0px;
+}
+
+.nostros-1{
+    background-image: none;
+}
+
+.footer2{
+    background-image: none;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.ya{
+    color: black;
+font-family:'Times New Roman', Times, serif
+
+
+}
+
+.call{
+    color: chartreuse;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #FBB50A; 
+    color: white;
+    cursor: pointer;
+}
+
+.event-info{
+background-color: #FBB50A;
+}
+
+.logo2{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.events{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+
+}
+.container2{
+    background-color: #FBB50A;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.titulo2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.label2{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.click{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.click:hover{
+    background-color: #e68a00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .sisi2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/media/img/fiesta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .esel2{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0.2);
+        border-radius: 15px;
+        background-color: white;
+    
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        margin-bottom: 25px;
+    }
+    
+    label, p{
+        font-size: 17px;
+        color: #575757;
+        margin-bottom: 10px;
+    }
+    
+    .fixed{
+        padding: 17px 11px;
+        border: 1px solid #00ADEF;
+        border-radius:  25px;
+        margin-bottom: 25px;
+        background-color: #FAFAFC;
+        outline: none;
+        color: #00ADEF;
+        font-size: 17px;
+        
+    }
+    
+    .btn-1{
+        background-color: #00ADEF;
+        font-size: 15px;
+        color: #FFFF;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .btn-1:hover {
+        background-color: #00ADEF;
+    }
+    .remember{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .logo img {
+            margin-bottom: 10px;
+        }
+    
+        nav {
+            margin-top: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            display: flex;
+            min-height: 70px;
+            background-color: #FBB50A;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            font-weight: 600;
+            padding-right: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        /* Estilos del contenido principal */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin: 0 10px 20px;
+            padding: 10px 20px;
+            background-color: #FBB50A;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .text-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .text2 {
+            color: #FBB50A;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .grid dt, .grid dd {
+            margin: 0;
+            
+
+        }
+        main
+        .yatu{
+size: 10px;
+text-align: center; font-size: 10px;
+        }
+        div{
+            justify-content: center;
+        }
+    }
+    <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+      <div class="mx-auto flex flex-col items-center gap-y-4 sm:max-w-xs my-8 sm:my-0">
+        <dt class="text-base leading-7 text-gray-600">Fiestas del año</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">5,000</dd>
+      </div>
+      <div class="mx-auto flex flex-col items-center gap-y-4 sm:max-w-xs my-8 sm:my-0">
+        <dt class="text-base leading-7 text-gray-600">Usuarios Felices</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">100,000</dd>
+      </div>
+      <div class="mx-auto flex flex-col items-center gap-y-4 sm:max-w-xs my-8 sm:my-0">
+        <dt class="text-base leading-7 text-gray-600">Ciudades Top</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">50</dd>
+      </div>
+    </dl>
+  </div>
+</div>
